@@ -1,5 +1,19 @@
 # Factor-model
 ## replicate the results from anomalies paper
+
+This program need dataset from CRSP. 
+
+After you have factors, naming these factors file as __Formation period-Lag-Holding Period.csv__(such as _1-0-1.csv_). Then run this file.  
+
+You can specify:
+* 1. Back test time period  
+* 2. Lag between formation period and holding period
+* 3. Exchange name
+* 4. Equal weighted or Market value weighted
+* 5. Whether need to drop panny stocks
+* 6. Holding Period
+
+
 ### back test input:
 <pre>
 Please input the serial number of signal:
